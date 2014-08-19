@@ -84,5 +84,51 @@ $(document).ready(function(){
         });
     });
 </script>
+
+<br>
+<br>
+    <h3>3rd Test</h3>
+
+    <div class="mod1">
+        <div><img src="https://octodex.github.com/images/original.png" style="width: 50%; height: 50%"></div>
+        <div><img src="https://octodex.github.com/images/saritocat.png" style="width: 50%; height: 50%"></div>
+        <div><img src="https://octodex.github.com/images/topguntocat.png" style="width: 50%; height: 50%"></div>
+        <div><img src="https://octodex.github.com/images/original.png" style="width: 50%; height: 50%"></div>
+        <div><img src="https://octodex.github.com/images/saritocat.png" style="width: 50%; height: 50%"></div>
+        <div><img src="https://octodex.github.com/images/topguntocat.png" style="width: 50%; height: 50%"></div>        
+    </div>
+<script type="text/javascript">
+
+$(document).ready(function(){
+
+    $('.mod1').slick({
+        centerMode: true,
+        centerPadding: '60px',
+        slidesToShow: 3,
+        autoplay: true,
+        autoplaySpeed: 2000,
+          responsive: [
+    {
+      breakpoint: 1024,
+      settings: {
+        slidesToShow: 3,
+      }
+    },
+    {
+      breakpoint: 600,
+      settings: {
+        slidesToShow: 2,
+      }
+    },
+    {
+      breakpoint: 480,
+      settings: {
+        slidesToShow: 1,
+      }
+    }
+  ]
+        });
+    });
+</script>
 </body>
 </html>
