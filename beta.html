@@ -133,14 +133,15 @@ $(document).ready(function(){
 <br>
 <br>
     <h3>4test</h3>
+
+
       <div class="dellatorre1">
         <div><img src="assets/img/bot/1.png"></div>
         <div><img src="assets/img/bot/2.png"></div>
         <div><img src="assets/img/bot/3.png"></div>
         <div><img src="assets/img/bot/4.png"></div>
     </div>
-        <script type="text/javascript">
-
+    <script type="text/javascript">
     $(document).ready(function(){
 
         $('.dellatorre1').slick({
@@ -149,6 +150,12 @@ $(document).ready(function(){
             slidesToShow: 3,
             autoplay: true,
             autoplaySpeed: 2000,
+            prevArrow:(
+                <button type="button" class="slick-prev" style="background: url(assets/img/bot/left.png)"></button>
+              ),
+            nextArrow:(
+                <button type="button" class="slick-next" style="background: url(assets/img/bot/right.png)"></button>
+              ),            
               responsive: [
         {
           breakpoint: 1024,
