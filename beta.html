@@ -145,32 +145,36 @@ $(document).ready(function(){
     $(document).ready(function(){
 
         $('.dellatorre1').slick({
-            centerMode: true,
-            centerPadding: '20px',
-            slidesToShow: 4,           
+            infinite: true,
+            speed: 300,
+            slidesToShow: 4,
+            slidesToScroll: 1,           
               responsive: [
         {
           breakpoint: 1024,
           settings: {
-            centerMode: true,
-            centerPadding: '20px',
+            infinite: true,
+            speed: 300,
             slidesToShow: 4,
+            slidesToScroll: 1,            
           }
         },
         {
           breakpoint: 600,
           settings: {
-            centerMode: true,
-            centerPadding: '10px',
+            infinite: true,
+            speed: 300,
             slidesToShow: 2,
+            slidesToScroll: 1,
           }
         },
         {
           breakpoint: 480,
           settings: {
-            centerMode: true,
-            centerPadding: '10px',
+            infinite: true,
+            speed: 300,
             slidesToShow: 2,
+            slidesToScroll: 1,
           }
         }
       ]
