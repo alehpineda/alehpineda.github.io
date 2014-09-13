@@ -5,10 +5,24 @@
     <title>Beta Sin CSS</title>
 
     <link rel="stylesheet" href="assets/css/transition.css">
-    <script type="text/javascript" src="assets/js/transition.js"></script>
 
 </head>
 <body>
+
+    <script>
+      $(document).ready(function() {
+        $("#cf7_controls").on('click', 'span', function() {
+        $("#cf7 img").removeClass("opaque");
+
+        var newImage = $(this).index();
+
+        $("#cf7 img").eq(newImage).addClass("opaque");
+
+        $("#cf7_controls span").removeClass("selected");
+        $(this).addClass("selected");
+        });
+      });
+    </script>
     <div id="cf7" class="shadow">
       <img class='opaque' src="https://octodex.github.com/images/femalecodertocat.png" />
       <img src="https://octodex.github.com/images/labtocat.png" />
