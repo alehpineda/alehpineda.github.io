@@ -13,8 +13,13 @@
     margin:0 auto 10px;
   }
   #cf7 img {
-    height:30%;
-    width:30%;
+    -webkit-transform: scale(0.3); /* Saf3.1+, Chrome */
+       -moz-transform: scale(0.3); /* FF3.5+ */
+        -ms-transform: scale(0.3); /* IE9 */
+         -o-transform: scale(0.3); /* Opera 10.3+ */
+            transform: scale(0.3);
+    /* IE6–IE9 */
+    filter: progid:DXImageTransform.Microsoft.Matrix(M11=0.9999619230641713, M12=-0.008726535498373935, M21=0.008726535498373935, M22=0.9999619230641713,SizingMethod='auto expand');
     position:absolute;
     left:0;
     -webkit-transition: opacity 1s ease-in-out;
@@ -24,7 +29,7 @@
     opacity:0;
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
     filter: alpha(opacity=0);
-}
+ }
 
   #cf7 img.opaque {
     opacity:1;
