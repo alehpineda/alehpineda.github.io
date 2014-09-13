@@ -12,6 +12,8 @@ p#cf7_controls {
   margin:0 auto 10px;
 }
 #cf7 img {
+  height: 100px;
+  width: 100px;
   position:absolute;
   left:0;
   -webkit-transition: opacity 1s ease-in-out;
