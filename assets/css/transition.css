@@ -36,3 +36,8 @@
     -ms-filter:"progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
     filter: alpha(opacity=1);
   }
+
+#botonj span{
+    padding-right:2em;
+    cursor:pointer;
+}
