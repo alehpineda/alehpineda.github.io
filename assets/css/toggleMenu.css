@@ -3,11 +3,10 @@
     font-weight:bold;
     padding:6px 10px;
     cursor:pointer;
-    border:2px solid tomato;
+    border:1px solid;
     margin:5px;
 }
 .container {
-    border:2px solid black;
     margin:5px;
 }
 .container > div {
