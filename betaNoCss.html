@@ -6,9 +6,11 @@
     
     <link rel="stylesheet" href="assets/css/transition.css">
     <link rel="stylesheet" href="assets/css/toggleMenu.css">
+    <link rel="stylesheet" href="assets/css/cycler.css">
     <script type="text/javascript" src="assets/js/jquery.min.js"></script>
     <script type="text/javascript" src="assets/js/transition.js"></script>
     <script type="text/javascript" src="assets/js/toggleMenu.js"></script>
+    <script type="text/javascript" src="assets/js/cycler.js"></script>
 
 
 </head>
@@ -28,20 +30,26 @@
 
     <h2>Test Js</h2>
 
-
-<ul class="menu">
-    <li class="toggle1">Empresa</li>
-    <li class="toggle2">Escuela</li>
-    <li class="toggle3">Particular</li>
-</ul>
-<div class="container">
-    <div class="toggle1">Empresa
-      <div>
-        dentro del div!
-      </div>
+    <ul class="menu">
+        <li class="toggle1">Empresa</li>
+        <li class="toggle2">Escuela</li>
+        <li class="toggle3">Particular</li>
+    </ul>
+    <div class="container">
+        <div class="toggle1">Empresa
+          <div>
+            dentro del div!
+          </div>
+        </div>
+        <div class="toggle2">Escuela</div>
+        <div class="toggle3">Particular</div>
     </div>
-    <div class="toggle2">Escuela</div>
-    <div class="toggle3">Particular</div>
-</div>
+
+  <div id="cycler">
+    <img class="active" src="assets/img/port01.jpg" alt="">
+    <img src="assets/img/port02.jpg" alt="">
+    <img src="assets/img/port03.jpg" alt="">
+    <img src="assets/img/port04.jpg" alt="">
+  </div>
 </body>
 </html>
