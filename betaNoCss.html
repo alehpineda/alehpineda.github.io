@@ -7,26 +7,16 @@
     <link rel="stylesheet" href="assets/css/transition.css">
     <link rel="stylesheet" href="assets/css/toggleMenu.css">
     <link rel="stylesheet" href="assets/css/cycler.css">
-    <script type="text/javascript" src="assets/js/jquery.min.js"></script>
-    <script type="text/javascript" src="assets/js/transition.js"></script>
-    <script type="text/javascript" src="assets/js/toggleMenu.js"></script>
-    <script type="text/javascript" src="assets/js/cycler.js"></script>
+    <link rel="stylesheet" href="assets/css/custom.css">
 
+    <script type="text/javascript" src="assets/js/jquery-1.11.1.min.js"></script>
+    <script type="text/javascript" src="assets/js/toggleMenu.js"></script>    
+    <script type="text/javascript" src="assets/js/transition.js"></script> 
+    <script type="text/javascript" src="assets/js/cycler.js"></script>
+    <script type="text/javascript" src="assets/js/jquery.cycle2.min.js"></script>
 
 </head>
 <body>
-    <div id="cf7" class="shadow">
-      <img class='opaque' src="https://octodex.github.com/images/femalecodertocat.png" />
-      <img src="https://octodex.github.com/images/labtocat.png" />
-      <img src="https://octodex.github.com/images/femalecodertocat.png" />
-      <img src="https://octodex.github.com/images/labtocat.png" />
-    </div>
-    <p id="cf7_controls">
-      <span class="selected">Image 1</span>
-      <span>Image 2</span>
-      <span>Image 3</span>
-      <span>Image 4</span>
-    </p>
 
     <h2>Test Js</h2>
 
@@ -45,11 +35,23 @@
         <div class="toggle3">Particular</div>
     </div>
 
-  <div id="cycler">
-    <img class="active" src="assets/img/port01.jpg" alt="">
+<div class="cycle-slideshow"
+    data-cycle-loader=true
+    data-cycle-fx="scrollHorz"
+    data-cycle-prev="#prev"
+    data-cycle-next="#next"
+    data-cycle-swipe=true
+    data-cycle-swipe-fx=scrollHorz
+    >
+    <img src="assets/img/port01.jpg" alt="">
     <img src="assets/img/port02.jpg" alt="">
-    <img src="assets/img/port05.jpg" alt="">
+    <img src="assets/img/port03.png" alt="">
     <img src="assets/img/port04.png" alt="">
-  </div>
+    <img src="assets/img/port05.jpg" alt="">
+</div>
+<div class="center">
+    <a href="#" id="prev">Prev</a>
+    <a href="#" id="next">Next</a>
+</div>
 </body>
 </html>
