@@ -1,0 +1,23 @@
+language: ruby
+rvm:
+- 2.5.1
+
+# Assume bundler is being used, therefore
+# the `install` step will run `bundle install` by default.
+script:
+- bundle exec jekyll build
+
+notifications:
+  email: false
+
+branches:
+  only:
+    - master
+
+deploy:
+  provider: pages
+  skip-cleanup: true
+  github-token: $GITHUB_TOKEN  # Set in the settings page of your repository, as a secure variable
+  keep-history: true
+  on:
+    branch: master
