@@ -1,11 +1,9 @@
 ---
-layout: default
+layout: archive
 ---
-
-<div>
 
 {{ content }}
 
-{% include list-category-posts.html lang=page.lang category=page.category %}
-
+<div class="entries-{{ page.entries_layout }}">
+  {% include posts-category.html taxonomy=page.taxonomy type=page.entries_layout %}
 </div>
