@@ -1,6 +1,8 @@
-deathscytheh.github.io
+alehpineda.github.io
 ======================
 
-Github Pages para mi.
+Blog personal, portafolio y CV en linea.
 
 En ingles y español.
+
+Autor: Alejandro H. Pineda
