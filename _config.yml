@@ -12,33 +12,33 @@
 
 # theme                  : "minimal-mistakes-jekyll"
 remote_theme             : "mmistakes/minimal-mistakes"
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
+minimal_mistakes_skin    : "dirt" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise", "default"
 
 # Site Settings
-locale                   : "en-US"
-title                    : "Blog"
-title_separator          : "-"
+locale                   : "es-MX"
+title                    : "Data Wizard in Training"
+title_separator          : "|"
 name                     : "Alejandro H. Pineda"
 description              : "Soy Alejandro Hernandez Pineda, nací, crecí y vivo en la comarca lagunera de Durango y Coahuila. Estoy en el tercer piso.
 Egrese del Instituto Tecnológico Nacional de México campus Laguna como Ingeniero en Electronica y Maestro en Ciencias en Ingeniería Eléctrica.
 Desde hace 5 años soy consultor de TICs en temas de desarrollo web, desarrollo de software, servidores GNU/Linux y seguridad informática. 
-Fan del lenguaje Python, Data Scientist Wizard en entrenamiento, Docker Captain en entrenamiento, promotor del software libre, I tango with Django, defensor de Angular, Raspberry Pi Maker, la nube solo es la computadora de alguien más, import this."
+Fan del lenguaje Python, Data Scientist Wizard, Docker Captain en entrenamiento, promotor del software libre, I tango with Django, defensor de Angular, Raspberry Pi Maker, la nube solo es la computadora de alguien más, import this."
 url                      : "https://alehpineda.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "alehpineda/alehpineda.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
-teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+teaser                   : "/assets/images/profile.jpg" # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
 comments:
-  provider               : # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
+  provider               : "facebook" # false (default), "disqus", "discourse", "facebook", "google-plus", "staticman", "staticman_v2" "custom"
   disqus:
     shortname            : # https://help.disqus.com/customer/portal/articles/466208-what-s-a-shortname-
   discourse:
     server               : # https://meta.discourse.org/t/embedding-discourse-comments-via-javascript/31963 , e.g.: meta.discourse.org
   facebook:
     # https://developers.facebook.com/docs/plugins/comments
-    appid                :
-    num_posts            : # 5 (default)
+    appid                : 1549431325355876
+    num_posts            : 10 # 5 (default)
     colorscheme          : # "light" (default), "dark"
 staticman:
   allowedFields          : # ['name', 'email', 'url', 'message']
@@ -61,7 +61,7 @@ reCaptcha:
   secret                 :
 atom_feed:
   path                   : # blank (default) uses feed.xml
-search                   : # true, false (default)
+search                   : true # true, false (default)
 search_full_content      : # true, false (default)
 search_provider          : # lunr (default), algolia, google
 algolia:
@@ -85,42 +85,45 @@ facebook:
   username               :
   app_id                 :
   publisher              :
-og_image                 : # Open Graph/Twitter default site image
+og_image                 : /assets/images/profile.jpg # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   type                   : # Person or Organization (defaults to Person)
   name                   : # If the user or organization name differs from the site's name
   links: # An array of links to social media profiles
+    - "https://www.linkedin.com/in/alehpineda"
+    - "https://instagram.com/ketolaguna"
+    - 
 
 # Analytics
 analytics:
-  provider               : false # false (default), "google", "google-universal", "custom"
+  provider               : google # false (default), "google", "google-universal", "custom"
   google:
-    tracking_id          :
+    tracking_id          : UA-119953873-1
     anonymize_ip         : # true, false (default)
 
 
 # Site Author
 author:
   name             : "Alejandro H. Pineda"
-  avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "I am an amazing person."
+  avatar           : "/assets/images/profile.jpg" # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
+  bio              : "Fan del lenguaje Python, Data Scientist Wizard, Docker Captain en entrenamiento, promotor del software libre, I tango with Django, defensor de Angular, Raspberry Pi Maker, la nube solo es la computadora de alguien más, import this."
   location         : "Mexico"
-  email            :
-  uri              :
+  email            : "ale.hpineda@gmail.com"
+  uri              : "https://alehpineda.com"
   home             : # null (default), "absolute or relative url to link to author home"
   bitbucket        :
   codepen          :
   dribbble         :
   flickr           :
-  facebook         :
+  facebook         : "deathscythe"
   foursquare       :
   github           : "alehpineda"
   gitlab           :
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "ketolaguna"
   lastfm           :
   linkedin         : "alehpineda" # "john-doe-12345678" (the last part of your profile url, e.g. https://www.linkedin.com/in/john-doe-12345678)
   pinterest        :
@@ -128,7 +131,7 @@ author:
   stackoverflow    : # "123456/username" (the last part of your profile url, e.g. https://stackoverflow.com/users/123456/username)
   steam            : # "steamId" (the last part of your profile url, e.g. https://steamcommunity.com/id/steamId/)
   tumblr           :
-  twitter          :
+  twitter          : 
   vine             :
   weibo            :
   xing             :
@@ -202,7 +205,7 @@ sass:
 permalink: /:categories/:title/
 paginate: 5 # amount of posts to show
 paginate_path: /page:num/
-timezone: # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone: America/Mexico_City # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
 
 # Plugins (previously gems:)
@@ -269,6 +272,6 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: # true
+      comments: true
       share: true
       related: true
