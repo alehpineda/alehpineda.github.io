@@ -1,5 +1,5 @@
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
-/home/travis/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181026-5754-jz88y1.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181027-5810-2x498v.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
@@ -49,4 +49,4 @@ linking shared-object ruby_http_parser.so
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser
 make "DESTDIR=" install
-/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20181026-5754-3ot5bq
+/usr/bin/install -m 0755 ruby_http_parser.so ./.gem.20181027-5810-1rzh2a5
