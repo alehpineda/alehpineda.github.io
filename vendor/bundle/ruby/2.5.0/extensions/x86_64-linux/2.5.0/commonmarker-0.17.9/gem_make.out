@@ -1,5 +1,5 @@
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.9/ext/commonmarker
-/home/travis/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181127-5704-1q4z6o9.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.5.1/bin/ruby -r ./siteconf20181128-5737-hqgnjg.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.9/ext/commonmarker
@@ -401,4 +401,4 @@ linking shared-object commonmarker/commonmarker.so
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.5.0/gems/commonmarker-0.17.9/ext/commonmarker
 make "DESTDIR=" install
-/usr/bin/install -m 0755 commonmarker.so ./.gem.20181127-5704-qp3kxw/commonmarker
+/usr/bin/install -m 0755 commonmarker.so ./.gem.20181128-5737-ykocvq/commonmarker
