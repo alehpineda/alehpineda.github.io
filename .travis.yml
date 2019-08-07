@@ -1,6 +1,7 @@
+dist: bionic
 language: ruby
 rvm:
-- 2.5.1
+- 2.6.3
 
 # Assume bundler is being used, therefore
 # the `install` step will run `bundle install` by default.
@@ -13,6 +14,10 @@ notifications:
 branches:
   only:
     - master
+
+before_install:
+  - gem update --system
+  - gem --version
 
 deploy:
   provider: pages
