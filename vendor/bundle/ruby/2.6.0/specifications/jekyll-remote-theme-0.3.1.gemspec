@@ -12,10 +12,10 @@ Gem::Specification.new do |s|
   s.email = ["ben.balter@github.com".freeze]
   s.homepage = "https://github.com/benbalter/jekyll-remote-theme".freeze
   s.licenses = ["MIT".freeze]
-  s.rubygems_version = "3.0.4".freeze
+  s.rubygems_version = "3.0.6".freeze
   s.summary = "Jekyll plugin for building Jekyll sites with any GitHub-hosted theme".freeze
 
-  s.installed_by_version = "3.0.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.0.6" if s.respond_to? :installed_by_version
 
   if s.respond_to? :specification_version then
     s.specification_version = 4

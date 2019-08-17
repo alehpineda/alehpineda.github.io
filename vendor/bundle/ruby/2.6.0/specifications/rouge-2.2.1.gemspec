@@ -15,8 +15,8 @@ Gem::Specification.new do |s|
   s.files = ["bin/rougify".freeze]
   s.homepage = "http://rouge.jneen.net/".freeze
   s.licenses = ["MIT".freeze, "BSD-2-Clause".freeze]
-  s.rubygems_version = "3.0.4".freeze
+  s.rubygems_version = "3.0.6".freeze
   s.summary = "A pure-ruby colorizer based on pygments".freeze
 
-  s.installed_by_version = "3.0.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.0.6" if s.respond_to? :installed_by_version
 end

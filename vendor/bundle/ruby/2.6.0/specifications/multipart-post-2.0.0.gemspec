@@ -14,8 +14,8 @@ Gem::Specification.new do |s|
   s.homepage = "https://github.com/nicksieger/multipart-post".freeze
   s.licenses = ["MIT".freeze]
   s.rdoc_options = ["--main".freeze, "README.md".freeze, "-SHN".freeze, "-f".freeze, "darkfish".freeze]
-  s.rubygems_version = "3.0.4".freeze
+  s.rubygems_version = "3.0.6".freeze
   s.summary = "A multipart form post accessory for Net::HTTP.".freeze
 
-  s.installed_by_version = "3.0.4" if s.respond_to? :installed_by_version
+  s.installed_by_version = "3.0.6" if s.respond_to? :installed_by_version
 end
