@@ -1,5 +1,5 @@
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
-/home/travis/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190926-5427-11cdxo8.rb extconf.rb
+/home/travis/.rvm/rubies/ruby-2.6.3/bin/ruby -I /home/travis/.rvm/rubies/ruby-2.6.3/lib/ruby/site_ruby/2.6.0 -r ./siteconf20190928-5310-dtx69y.rb extconf.rb
 creating Makefile
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
@@ -27,4 +27,4 @@ linking shared-object fastfilereaderext.so
 
 current directory: /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.6.0/gems/eventmachine-1.2.7/ext/fastfilereader
 make "DESTDIR=" install
-/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20190926-5427-i4mge4
+/usr/bin/install -m 0755 fastfilereaderext.so ./.gem.20190928-5310-1iv5kur
