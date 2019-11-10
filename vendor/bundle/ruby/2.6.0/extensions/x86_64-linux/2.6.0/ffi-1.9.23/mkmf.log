@@ -269,7 +269,7 @@ checked program was:
 /* end */
 
 "gcc -o conftest -I/home/travis/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/x86_64-linux -I/home/travis/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0/ruby/backward -I/home/travis/.rvm/rubies/ruby-2.6.3/include/ruby-2.6.0 -I.     -O3 -ggdb3 -Wall -Wextra -Wdeclaration-after-statement -Wdeprecated-declarations -Wduplicated-cond -Wimplicit-function-declaration -Wimplicit-int -Wmisleading-indentation -Wpointer-arith -Wrestrict -Wwrite-strings -Wimplicit-fallthrough=0 -Wmissing-noreturn -Wno-cast-function-type -Wno-constant-logical-operand -Wno-long-long -Wno-missing-field-initializers -Wno-overlength-strings -Wno-packed-bitfield-compat -Wno-parentheses-equality -Wno-self-assign -Wno-tautological-compare -Wno-unused-parameter -Wno-unused-value -Wsuggest-attribute=format -Wsuggest-attribute=noreturn -Wunused-variable  -fPIC  conftest.c  -L. -L/home/travis/.rvm/rubies/ruby-2.6.3/lib -Wl,-rpath,/home/travis/.rvm/rubies/ruby-2.6.3/lib -L. -fstack-protector-strong -rdynamic -Wl,-export-dynamic     -lffi  -lffi -Wl,-rpath,'/../lib' -Wl,-rpath,'/../lib' -lruby -lffi  -lffi -lm   -lc"
-/tmp/ccn3WL1F.o: In function `t':
+/tmp/ccGcMxYE.o: In function `t':
 /home/travis/build/alehpineda/alehpineda.github.io/vendor/bundle/ruby/2.6.0/gems/ffi-1.9.23/ext/ffi_c/conftest.c:15: undefined reference to `rb_thread_blocking_region'
 collect2: error: ld returned 1 exit status
 checked program was:
