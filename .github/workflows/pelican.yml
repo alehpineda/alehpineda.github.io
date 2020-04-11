@@ -1,0 +1,30 @@
+name: Pelican Site
+
+on: 
+  push:
+    branches:
+      - pelican
+
+jobs:
+
+  pelican:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Set up Python 3.7
+      uses: actions/setup-python@v1
+      with:
+        python-version: 3.7
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt
+    - name: Build site
+      run: |
+        pelican content -o output -s pelicanconf.py
+    - name: Update local master branch
+      run: |
+        ghp-import output -b master
+    - name: Push local master to remote
+      run: |
+        git push -f origin master
